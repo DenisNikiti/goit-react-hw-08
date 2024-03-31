@@ -32,6 +32,7 @@ export const login = createAsyncThunk("auth/login", async (user, thinkAPI) => {
 export const logout = createAsyncThunk("auth/logout", async (_, thinkAPI) => {
   try {
     const response = await axios.post("users/logout");
+    setAuthHeader("");
     return response.data;
   } catch (error) {
     thinkAPI.rejectWithValue(error.message);

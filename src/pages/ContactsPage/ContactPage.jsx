@@ -1,5 +1,5 @@
 import ContactForm from "../../components/ContactForm/ContactForm ";
-import ContactList from "../../components/ContactList/ContactList";
+import Contacts from "../../components/Contacts/Contacts";
 import SearchBox from "../../components/SearchBox/SearchBox";
 
 export default function ContactPage() {
@@ -7,7 +7,7 @@ export default function ContactPage() {
     <div>
       <ContactForm />
       <SearchBox />
-      <ContactList />
+      <Contacts />
     </div>
   );
 }

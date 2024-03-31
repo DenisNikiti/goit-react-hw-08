@@ -1,6 +1,6 @@
 import { Button } from "@mui/material";
 import { Formik, Form, Field, ErrorMessage } from "formik";
-import css from "./Registration.module.css";
+import css from "./RegistrationForm.module.css";
 import { useDispatch, useSelector } from "react-redux";
 import { register } from "../../redux/auth/operations";
 import * as Yup from "yup";
@@ -21,7 +21,7 @@ const SignupSchema = Yup.object().shape({
     .required("Required"),
 });
 
-export default function Registration() {
+export default function RegistrationForm() {
   const dispath = useDispatch();
   const Loading = useSelector(isloading);
   const isError = useSelector(error);
