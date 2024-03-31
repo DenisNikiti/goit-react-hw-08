@@ -2,7 +2,7 @@ import { Button } from "@mui/material";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import css from "./Registration.module.css";
 import { useDispatch, useSelector } from "react-redux";
-import { register } from "../../redux/auth/operation";
+import { register } from "../../redux/auth/operations";
 import * as Yup from "yup";
 import { error, isloading } from "../../redux/auth/selectors";
 import { RotatingLines } from "react-loader-spinner";

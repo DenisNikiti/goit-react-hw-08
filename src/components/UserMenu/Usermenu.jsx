@@ -3,7 +3,7 @@ import css from "./Usermenu.module.css";
 import AccountCircleSharpIcon from "@mui/icons-material/AccountCircleSharp";
 import { User, isloading } from "../../redux/auth/selectors";
 import { Button } from "@mui/material";
-import { logout } from "../../redux/auth/operation";
+import { logout } from "../../redux/auth/operations";
 import { CirclesWithBar } from "react-loader-spinner";
 
 export default function Usermenu() {

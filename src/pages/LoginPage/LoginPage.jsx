@@ -3,7 +3,7 @@ import css from "./LoginPage.module.css";
 import { Button } from "@mui/material";
 import { useDispatch, useSelector } from "react-redux";
 import * as Yup from "yup";
-import { login } from "../../redux/auth/operation";
+import { login } from "../../redux/auth/operations";
 import { toast } from "react-hot-toast";
 import { error, isloading } from "../../redux/auth/selectors";
 import { Vortex } from "react-loader-spinner";

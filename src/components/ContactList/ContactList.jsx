@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { selectVisibleContacts } from "../../redux/contacts/selectors";
 
 import { useEffect } from "react";
-import { fetchContacts } from "../../redux/contacts/operation";
+import { fetchContacts } from "../../redux/contacts/operations";
 import { isloading } from "../../redux/contacts/selectors";
 import { Hourglass } from "react-loader-spinner";
 

@@ -4,7 +4,7 @@ import { Suspense, lazy, useEffect } from "react";
 import { Toaster } from "react-hot-toast";
 import RestrictedRoute from "./components/RestrictedRoute/RestrictedRoute";
 import { useDispatch, useSelector } from "react-redux";
-import { refreshUser } from "./redux/auth/operation";
+import { refreshUser } from "./redux/auth/operations";
 
 import { Refreshing } from "./redux/auth/selectors";
 
