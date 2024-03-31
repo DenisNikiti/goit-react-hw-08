@@ -1,0 +1,20 @@
+.listItem {
+  display: flex;
+  border: 1px solid black;
+  width: 300px;
+  padding: 10px;
+}
+.listItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.container {
+  display: inline;
+  height: 20px;
+}
+
+.buttonList {
+  margin-left: 50px;
+  margin-top: 20px;
+  width: 100px;
+}
